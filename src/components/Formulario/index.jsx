@@ -36,7 +36,7 @@ const formulario = () => {
                 </div>
                 {media !== 0 && (
                     <div className="resultado">
-                        <h3>O seu IMC é atual: {media.toFixed(2)}</h3>
+                        <h3>O seu IMC atual é: {media.toFixed(2)}</h3>
                         <p>Status: {getStatusIMC(media)}</p>
                     </div>
                 )}
